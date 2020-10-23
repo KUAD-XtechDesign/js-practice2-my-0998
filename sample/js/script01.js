@@ -6,39 +6,39 @@ $(function(){
     let num2 = 32;
     　　
 
-    function sayhello(){
-        $("#content").txet("こんにちは！");
+    function sayHello(){
+      $("#content").txet("こんにちは！");
     }
 
-    function saysomething(txt){
-        $("#content").txet(txt);
+    function saySomething(txt){
+      $("#content").txet(txt);
     }
 
-    function samtwo(txt){
-        $("#content").txet(txt)
+    function samTwo(txt){
+      $("#content").txet(txt)
     }
 
 
     $("#button01").on("click",function(){
-      seyhello();
+      seyHello();
     })
     
     $("#button02").on("click",function(){
-      saysomething(txt1);
+      saySomething(txt1);
     })
     
     $("#button03").on("click",function(){
-      somtwo(txt1,txt2)
+      somTwo(txt1,txt2)
     })
     
     $("#button04").on("click",function(){
-        somtwo(num1,num2)
+        somTwo(num1,num2)
     })
     
     
     $("#button05").on("click",function(){
-        somtwo(txt1,txt2);
-        somtwo(num1,num2);
+        somTwo(txt1,txt2)
+        somTwo(num1,num2)
 
     })
     
